@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+        <header>
+        <a href="#" class="logo">Digital Footprint</a>
+        <nav>
+            <a href="#" onclick="showSection('home')" class="nav-link active">Home</a>
+            <a href="#" onclick="showSection('about')" class="nav-link active">About Me</a>
+            <a href="#" onclick="showSection('services')" class="nav-link">Services</a>
+            <a href="#" onclick="showSection('skills')" class="nav-link">Skills</a>
+            <a href="#" onclick="showSection('Projects/Live Demo')" class="nav-link">Projects/Live Demo</a>
+            <a href="#" onclick="showSection('seminars')" class="nav-link">Certification/Workshops</a>
+        </nav>
+    </header>
+
+    <!-- 🔥 CONTENT IS NOW OUTSIDE HEADER -->
+    <main class="content-container">
+        <section id="home" class="content active">
+            <div class="home">
+                <div class="home-img">
+                    <img src="felipe.png" alt="">
+                </div>
+
+                <div class="home-content">
+                    <h1>Hi, It's <span>Felipe</span></h1>
+                    <h3 class="typing-text">I'm a <span></span></h3>
+                    <p>This portfolio will walk you through my venture in pursuing my career as an I.T</p>
+
+                    <div class="social-icons">
+                        <a href="https://github.com/Junior071500"><i class="fa-brands fa-github"></i></a>
+                        <a href="mailto:felipesabit57@gmail.com">
+                          <i class="fa-solid fa-envelope"></i>
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="content">
+        <h2 class="section-title">What I Can Do</h2>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+                <i class="fa-brands fa-html5"></i>
+                <h3>Web Development</h3>
+                <p>
+                    I experienced building responsive and functional websites using 
+                    <strong>HTML, CSS, PHP, and MySQL.</strong>
+                </p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>Web Design</h3>
+                <p>
+                    Modern, user-friendly web designs focused on usability, accessibility, 
+                    and visual appeal.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-database"></i>
+                <h3>Database Management</h3>
+                <p>
+                    Experienced working with <strong>MySQL and Firebase</strong>
+                </p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-brands fa-android"></i>
+                <h3>Android Development</h3>
+                <p>
+                    Familiar in developing Android applications using 
+                    <strong>Android Studio</strong>                </p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-pen-nib"></i>
+                <h3>UI / UX Design</h3>
+                <p>
+                    Created mobile and web fronted interfaces using figma.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-brands fa-microsoft"></i>
+                <h3>Microsoft Office Tools</h3>
+                <p>
+                    Using <strong>Word, Excel, Powerpoint and Publisher</strong> for documentation, 
+                    data analysis, and professional layouts.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-robot"></i>
+                <h3>Generative AI (Responsible Use)</h3>
+                <p>
+                    Utilizing AI tools ethically to improve productivity, creativity, 
+                    and problem-solving while maintaining data integrity.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h3>Troubleshooting & Support</h3>
+                <p>
+                    Diagnosing and resolving software and system issues efficiently.
+                </p>
+            </div>
+        </div>
+        </section>
+
+    <section id="skills" class="content">
+    <h2 class="section-title">what I am Knowledgeable of</h2>
+
+    <div class="skills-grid">
+
+        <!-- Web Development -->
+        <div class="skill-card">
+            <i class="fa-brands fa-html5"></i>
+            <span>HTML</span>
+        </div>
+        <div class="skill-card">
+            <i class="fa-brands fa-css3-alt"></i>
+            <span>CSS</span>
+        </div>
+        <div class="skill-card">
+            <i class="fa-brands fa-php"></i>
+            <span>PHP</span>
+        </div>
+        <div class="skill-card">
+            <i class="fa-solid fa-database"></i>
+            <span>MySQL</span>
+        </div>
+
+        <!-- Design Tools -->
+        <div class="skill-card">
+            <img src="https://img.icons8.com/color/96/figma--v1.png" alt="Figma"/>
+            <span>Figma</span>
+        </div>
+        <div class="skill-card">
+            <img src="https://img.icons8.com/color/96/canva.png" alt="Canva"/>
+            <span>Canva</span>
+        </div>
+        <div class="skill-card">
+            <img src="https://img.icons8.com/color/96/vercel.png" alt="Vercel"/>
+            <span>Vercel</span>
+        </div>
+        <div class="skill-card">
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub</span>
+        </div>
+
+        <!-- Microsoft Tools -->
+        <div class="skill-card">
+            <img src="https://img.icons8.com/color/96/000000/word.png" alt="Word"/>
+            <span>Word</span>
+        </div>
+        <div class="skill-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Microsoft_Excel_2013-2019_logo.svg" alt="Excel"/>
+            <span>Excel</span>
+        </div>
+        <div class="skill-card">
+            <img src="https://img.icons8.com/color/96/000000/powerpoint.png" alt="PowerPoint"/>
+            <span>PowerPoint</span>
+        </div>
+        <div class="skill-card">
+            <img src="https://img.icons8.com/color/96/visual-studio.png" alt="Visual Studio"/>
+            <span>Visual Studio</span>
+        </div>
+
+        <!-- Mobile & Database -->
+        <div class="skill-card">
+            <i class="fa-brands fa-android"></i>
+            <span>Android Studio</span>
+        </div>
+        <div class="skill-card">
+            <img src="https://img.icons8.com/color/96/firebase.png" alt="Firebase"/>
+            <span>Firebase</span>
+        </div>
+
+        <!-- AI Tools -->
+        <div class="skill-card">
+            <img src="https://img.icons8.com/color/96/chatgpt.png" alt="ChatGPT"/>
+            <span>ChatGPT</span>
+        </div>
+    </div>
+    </section>
+
+   <section id="Projects/Live Demo" class="content">
+  <h2 class="section-title">Projects / Live Demo</h2>
+  <p class="projects-intro">
+    Explore the Police Medical Unit – Patient Information Management System (PIMS),
+    a web-based system designed to organize police patient records, support medical
+    certificate processing, and help authorized personnel manage patient information.
+    Each role-based demo below highlights the system's main functions.
+  </p>
+
+  <div class="pims-demo-grid">
+    <!-- Police Patient Demo -->
+    <article class="pims-demo-card">
+      <div class="pims-demo-heading">
+        <i class="fa-solid fa-user-shield" aria-hidden="true"></i>
+        <h3>Police Patient</h3>
+      </div>
+      <p>
+        View recent health information, laboratory results, and check-up history;
+        update basic profile details; and submit medical certificate requests and
+        check their status. Validated medical certificates can be verified using
+        their QR code.
+      </p>
+      <div class="video-placeholder">
+        <video controls preload="metadata" aria-label="Police Patient PIMS demo video">
+          <source src="videos/police-final.mp4" type="video/mp4">
+          Your browser does not support HTML video.
+        </video>
+        <p class="video-help">Police Patient demo video</p>
+      </div>
+    </article>
+
+    <!-- Police Nurse Demo -->
+    <article class="pims-demo-card">
+      <div class="pims-demo-heading">
+        <i class="fa-solid fa-user-nurse" aria-hidden="true"></i>
+        <h3>Police Nurse</h3>
+      </div>
+      <p>
+        Register police patient accounts and maintain patient records by recording
+        vital signs, laboratory test results, and check-up information. The nurse
+        can also review and process medical certificate requests as part of the
+        certificate workflow.
+      </p>
+      <div class="video-placeholder">
+        <video controls preload="metadata" aria-label="Police Nurse PIMS demo video">
+          <source src="videos/nurse-final.mp4" type="video/mp4">
+          Your browser does not support HTML video.
+        </video>
+        <p class="video-help">Police Nurse demo video</p>
+      </div>
+    </article>
+
+    <!-- Regional Doctor Demo -->
+    <article class="pims-demo-card">
+      <div class="pims-demo-heading">
+        <i class="fa-solid fa-user-doctor" aria-hidden="true"></i>
+        <h3>Regional Doctor</h3>
+      </div>
+      <p>
+        Review patient evaluations, record diagnoses and treatment recommendations,
+        manage check-up results, create announcements, validate medical certificates,
+        and generate QR codes for approved certificates. The doctor can also review
+        patient statistics.
+      </p>
+      <div class="video-placeholder">
+        <video controls preload="metadata" aria-label="Regional Doctor PIMS demo video">
+          <source src="videos/doctor-final .mp4" type="video/mp4">
+          Your browser does not support HTML video.
+        </video>
+        <p class="video-help">Regional Doctor demo video</p>
+      </div>
+    </article>
+
+    <!-- Admin Demo -->
+    <article class="pims-demo-card">
+      <div class="pims-demo-heading">
+        <i class="fa-solid fa-user-gear" aria-hidden="true"></i>
+        <h3>Admin</h3>
+      </div>
+      <p>
+        Manage authorized Medical Unit accounts, maintain police patient records,
+        archive inactive patients or personnel transferred outside the region, and
+        view system statistics such as registered personnel, police patients, and
+        patient distribution by location.
+      </p>
+      <div class="video-placeholder">
+        <video controls preload="metadata" aria-label="Admin PIMS demo video">
+          <source src="videos/admin-final .mp4" type="video/mp4">
+          Your browser does not support HTML video.
+        </video>
+        <p class="video-help">Admin demo video</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+        <section id="seminars" class="content">
+        <h2 class="section-title">My Engagements</h2>
+        <div class="seminars-grid">
+
+            <!-- Example 1 -->
+            <div class="seminar-card">
+            <div class="seminar-logo">
+                <img src="images/sap.png" alt="RDM 103 Certificate" class="zoomable">
+            </div>
+            <h3>CERTIFIIED DATABASE ADMINISTRATOR - SAP HANA  </h3>
+            <p><strong>Organizer:</strong> Accenture Learning Academy </p>
+            <p><strong>Date Attended:</strong> July 16, 2026 </p>
+            </div>
+
+            <!-- Example 1 -->
+            <div class="seminar-card">
+            <div class="seminar-logo">
+                <img src="images/cert1.png" alt="RDM 103 Certificate" class="zoomable">
+            </div>
+            <h3>RDM 103: E - Document and Record Management System </h3>
+            <p><strong>Organizer:</strong> Stellar Training and Consultancy Services</p>
+            <p><strong>Date Attended:</strong> October 22, 2025</p>
+            </div>
+
+            <!-- Example 2 -->
+            <div class="seminar-card">
+            <div class="seminar-logo">
+                <img src="images/cert2.png" alt="Digital Citizenship Certificate" class="zoomable">
+            </div>
+            <h3> Information Session: Digital Citizenship </h3>
+            <p><strong>Organizer:</strong> Department of Information and Communications Technology</p>
+            <p><strong>Date Attended:</strong> October 10, 2025</p>
+            </div>
+
+            <!-- Example 3 -->
+            <div class="seminar-card">
+            <div class="seminar-logo">
+                <img src="images/cert3.png" alt="Cybersecurity Awareness Certificate" class="zoomable">
+            </div>
+            <h3> Information Session: Cybersecurity Awareness</h3>
+            <p><strong>Organizer:</strong>Department of Information and Communications Technology</p>
+            <p><strong>Date Attended:</strong> October 10,2025</p>
+            </div>
+        </div>
+        </section>
+
+   <section id="contact" class="content">
+  <h2 class="section-title">Get in Touch</h2>
+
+  <div class="contact-container">
+    
+    <!-- Left Column: Profile Photo -->
+    <div class="contact-left">
+      <div class="profile-photo">
+        <img src="felipe.png" alt="Felipe C. Sab-it Jr.">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    <section id="about" class="content">
+  <h2 class="section-title">About Me</h2>
+
+  <div class="about-container">
+    <!-- Left: Profile or Illustration -->
+    <div class="about-left">
+      <img src="felipe.png" alt="Felipe C. Sab-it Jr.">
+    </div>
+
+    <!-- Right: Text -->
+    <div class="about-right">
+      <p>Hello! I'm <span>Felipe C. Sab-it Jr.</span>, a passionate IT and web developer dedicated to building responsive, and user-friendly digital experiences. I love blending creativity with technical skills to create solutions that help businesses and people thrive.</p>
+
+      <p>My strengths include problem-solving, innovative thinking, and learning new technologies. I enjoy working with web development technologies, database management, UI/UX design, and leveraging AI responsibly to improve processes.</p>
+
+      <p>My goal is to continue growing as IT while contributing to exciting projects, collaborating with talented individuals, and making a positive impact in the tech world.</p>
+
+    </div>
+
+    <!-- Right Column: Contact Info + Socials -->
+    <div class="contact-right">
+      <div class="contact-info">
+        <div class="info-item">
+          <i class="fa-solid fa-envelope"></i>
+          <p>felipesabit57@gmail.com</p>
+        </div>
+        <div class="info-item">
+          <i class="fa-solid fa-phone"></i>
+          <p>+63 9692075300</p>
+        </div>
+        <div class="info-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>Baguio City, Benguet Philippines 2600</p>
+        </div>
+      </div>
+      
+  </div>
+</section>
+
+
+    </main>
+
+    <script>
+    function showSection(id) {
+        // hide all sections
+        document.querySelectorAll('.content').forEach(section => {
+            section.classList.remove('active');
+        });
+
+        // remove active from nav links
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.classList.remove('active');
+        });
+
+        // show selected section
+        document.getElementById(id).classList.add('active');
+    }
+    </script>
+
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const zoomImages = document.querySelectorAll('.zoomable');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const closeBtn = document.getElementById('closeBtn');
+
+    zoomImages.forEach(img => {
+        img.addEventListener('click', () => {
+            lightbox.style.display = 'flex';
+            lightboxImg.src = img.src;
+        });
+    });
+
+    closeBtn.addEventListener('click', () => {
+        lightbox.style.display = 'none';
+    });
+
+    lightbox.addEventListener('click', (e) => {
+        if (e.target !== lightboxImg) {
+            lightbox.style.display = 'none';
+        }
+    });
+
+});
+</script>
+
+    <div id="lightbox">
+      <span id="closeBtn">&times;</span>
+      <img id="lightbox-img">
+  </div>
+
+</body>
+</html>
